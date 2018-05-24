@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--BACKGROUND COLOURS-->
+    <color name="messageListCardViewBackground">#FFF59D</color>
+    <color name="messageListViewBackground">#616161</color>
+
+    <color name="userListCardViewBackground">#FFFFFF</color>
+    <color name="userListViewBackground">#FFFFFF</color>
+
+    <color name="groupMemberListCardViewBackground">#FFFFFF</color>
+    <color name="groupMemberListViewBackground">#FFFFFF</color>
+
+    <color name="groupListCardViewBackground">#888888</color>
+    <color name="groupListViewBackground">#BDBDBD</color>
+
+    <!--CHAT WINDOW-->
+    <color name="chatWindowBackground">#616161</color>
+    <color name="chatBackground">#FFF9C4</color>
+    <color name="timeTextColour">#999999</color>
+    <color name="nameTextColour">#aa00ff</color>
+    <color name="messageTextColour">#000000</color>
+    <color name="chatWindowDivider">#616161</color>
+
+    <!--    TEXT COLORS -->
+    <color name="userListTitles">#000000</color>
+    <color name="userListValues">#000000</color>
+    <color name="notificationTitle">#000000</color>
+    <color name="notificationValue">#000000</color>
+    <color name="userList_numberTextColor">#90A4AE</color>
+    <color name="toolbarTitle">#FFFFFF</color>
+
+    <!--    OTHER COLORS    -->
+    <color name="groupItemBackground">#FFFFFF</color>
+    <color name="groupText">#000000</color>
+    <color name="groupIconBackground">#FFFFFF</color>
+    <color name="groupIconForeground">#000000</color>
+
+    <color name="dividerColor">#000000</color>
+    <color name="message_bg">#eeeeee</color>
+    <color name="sendButton_bg">#64dd17</color>
+    <color name="sendButton_label">#000000</color>
+    <color name="addMemberButtonBg">#90A4AE</color>
+    <color name="groupAdminBg">#64dd17</color>
+    <color name="groupMemberListViewDivider">#999999</color>
+
+    <!--NOTIFICATION COLOURS-->
+    <color name="meetingBackground">#E040FB</color>
+    <color name="meetingValueColor">#000000</color>
+    <color name="meetingLabelColor">#000000</color>
+
+    <color name="noticeBackground">#FF5252</color>
+    <color name="noticeValueColor">#000000</color>
+    <color name="noticeLabelColor">#000000</color>
+
+    <color name="eventsBackground">#B2FF59</color>
+    <color name="eventsValueColor">#000000</color>
+    <color name="eventsLabelColor">#000000</color>
+
+    <!--    TEXT COLORS FOR USERNAME    -->
+    <color name="selfColor">#FFFF0000</color>
+    <color name="color1">#FF34932E</color>
+    <color name="color2">#FF0000FF</color>
+    <color name="color3">#FFFFA600</color>
+    <color name="color4">#FFD200FF</color>
+</resources>

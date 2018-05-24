@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">PASChat</string>
+    <string name="action_notify">Send Notification</string>
+    <string name="action_creategroup">Create New Group</string>
+    <string name="action_signout">Sign Out</string>
+    <string name="action_userlist">Users</string>
+    <string name="action_share">Share App</string>
+
+    <!--TEXTVIEW LABELS-->
+    <string name="notificationDateTextViewLabel">Date</string>
+    <string name="notificationTimeTextViewLabel">Time</string>
+    <string name="notificationSenderTextViewLabel">Sender</string>
+    <string name="notificationMessageTextViewLabel">Message</string>
+    <string name="notificationTitleTextViewLabel">Title</string>
+    <string name="chatMessageTextViewLabel">Message</string>
+    <string name="chatDateTextViewLabel">Date</string>
+    <string name="chatTimeTextViewLabel">Time</string>
+    <string name="chatSenderTextViewLabel">Sender</string>
+    <string name="groupNameTextViewLabel">Group Name</string>
+    <string name="groupCreatorTextViewLabel">Group Creator</string>
+    <string name="userNameHint">Username</string>
+    <string name="notificationTitleHint">Title</string>
+    <string name="notificationBodyHint">Message</string>
+
+    <string name="groupadminText">Group Admin</string>
+    <string name="appAdminText">Admin</string>
+
+    <string name="notificationDateText">Date/Time: </string>
+    <string name="notificationSenderText">Sender: </string>
+    <string name="notificationTitleText">Title: </string>
+    <string name="notificationBodyTitle">Message: </string>
+    <string name="sendNotificationBtnLabel">Send Notification</string>
+    <string name="notificationTypeSpinner">Notification Type</string>
+    <string name="name">Name:</string>
+    <string name="phone">Mobile Number: </string>
+    <string name="groupCreatedBy">Created By:- </string>
+    <string name="groupDate">Created On:- </string>
+
+    <!--    BUTTON LABELS   -->
+    <string name="signInUsingPhone">Sign In Using Phone</string>
+    <string name="sendButton">Send</string>
+    <string name="addMemberText">Add Participant</string>
+
+
+    <!--    Dialog Box  -->
+    <string name="userlistDailogBoxTitle">What do you want to do?</string>
+    <string name="createGroupText">Enter Group Name</string>
+    <string name="copyNumber">Copy Phone Number</string>
+    <string name="call">Call</string>
+    <string name="makeAdmin">Make Admin</string>
+
+    <!--    OTHER TEXTS -->
+    <string name="sign_out">Sign Out</string>
+    <string name="delete">Delete</string>
+    <string name="message_hint">Enter Message</string>
+
+
+
+
+
+
+
+
+
+
+	
+	<!--    TOAST MESSAGES  -->
+	<string name="copyNUmberToast">Phone Number Copied</string>
+
+    <!--    ERROR MESSAGES  -->
+    <string name="notAdmin">You are not an admin</string>
+    <string name="errorOccurred">Error Occurred!Please try again</string>
+    <string name="groupExists">Group Already Exists.Enter another Name</string>
+    <string name="notificationNotAdmin">Cannot send Notification.You are not an Admin</string>
+    <string name="alreadyAdmin">User is already an Admin</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="sign_out_failed">Sign out failed</string>
+    <string name="delete_account_failed">Delete account failed</string>
+    <string name="unknown_sign_in_response">Unknown sign in response</string>
+
+    <!--    ACTIVITY LABELS -->
+    <string name="activity_mainActivity">Main Activity</string>
+    <string name="activity_notificationList">Notifications</string>
+    <string name="activity_sendNotification">Send Notification</string>
+    <string name="activity_addMembers">Add Members</string>
+    <string name="activity_userList">Users</string>
+    <string name="activity_groupMembers">Group Members</string>
+    <string name="activity_signIn">Sign In</string>
+    <string name="activity_chatWindow">chat Window</string>
+</resources>

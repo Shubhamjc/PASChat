@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/groupMemberListViewBackground"
+    tools:context="com.example.shubham.paschat.GroupMembers">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/groupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/groupNameTextViewLabel"
+            android:textSize="@dimen/groupNameTextSize"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/groupCreatorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupName"
+            android:text="@string/groupCreatedBy"/>
+
+        <TextView
+            android:id="@+id/groupCreator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/groupCreatorText"
+            android:layout_toEndOf="@id/groupCreatorText"
+            android:layout_below="@id/groupName" />
+
+        <TextView
+            android:id="@+id/groupDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupCreatorText"
+            android:text="@string/groupDate"/>
+
+
+        <TextView
+            android:id="@+id/groupDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupCreatorText"
+            android:layout_toRightOf="@id/groupDateText"
+            android:layout_toEndOf="@id/groupDateText"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/addMemberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addMemberText"
+        android:layout_marginTop="@dimen/groupMembersViewMargins"
+        android:textSize="@dimen/addMembersText"/>
+
+    <ListView
+        android:id="@+id/groupMembersListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/groupMembersViewMargins"
+        tools:listitem="@layout/item_groupmembers"
+        android:transcriptMode="alwaysScroll"
+        android:dividerHeight="@dimen/dividerHeight"
+        android:stackFromBottom="false"
+        android:divider="@color/groupMemberListViewDivider"
+        android:layout_centerHorizontal="true" />
+
+
+</LinearLayout>

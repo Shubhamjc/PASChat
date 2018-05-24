@@ -1,0 +1,50 @@
+<resources>
+
+    <dimen name="messageCardViewWidth">300dp</dimen>
+
+    <!--WIDTHS AND HEIGHTS-->
+    <dimen name="userNameEditTextWidth">250dp</dimen>
+    <dimen name="signinBtnWidth">250dp</dimen>
+    <dimen name="createGroupDialog_editTextWidth">250dp</dimen>
+    <dimen name="notificationTypeSpinnerWidth">200dp</dimen>
+    <dimen name="chatBoxWidth">250dp</dimen>
+
+    <dimen name="toolbarHeight">55dp</dimen>
+    <dimen name="groupItemHeight">60dp</dimen>
+    <dimen name="dividerHeight">1dp</dimen>
+    <dimen name="userNameEditTextHeight">50dp</dimen>
+    <dimen name="addMembersBtnHeight">35dp</dimen>
+    <dimen name="signinBtnHeight">50dp</dimen>
+    <dimen name="notificationTypeSpinnerHeight">50dp</dimen>
+
+    <dimen name="photoImagePickerSize">40dp</dimen>
+    <dimen name="sendButtonSize">40dp</dimen>
+    <dimen name="groupIconSize">50dp</dimen>
+
+	<dimen name="cardViewCornerRadius">10dp</dimen>
+
+    <dimen name="sendMessageLinerLayout">50dp</dimen>
+
+    <!--TEXT SIZES-->
+    <dimen name="toolbarTitleSize">25sp</dimen>
+    <dimen name="groupTextSize">25sp</dimen>
+    <dimen name="addMembersText">30sp</dimen>
+    <dimen name="userList_usernameSize">25sp</dimen>
+    <dimen name="notificationTypeText">17sp</dimen>
+    <dimen name="groupNameTextSize">30sp</dimen>
+
+    <!--MARGINS AND PADDINGS-->
+    <dimen name="outerMargins">5dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="addMembersBtnMarginBottom">10dp</dimen>
+    <dimen name="imageTextSeperatorBtn">15dp</dimen>
+    <dimen name="viewSeperator">5dp</dimen>
+    <dimen name="groupMembersViewMargins">10dp</dimen>
+
+    <dimen name="listView_padding">5dp</dimen>
+	<dimen name="listItemPadding">10dp</dimen>
+	<dimen name="listItemContentPadding">5dp</dimen>
+    <dimen name="listEndPadding">10dp</dimen>
+    <dimen name="activityPadding">5dp</dimen>
+    <dimen name="dialogBoxPadding">10dp</dimen>
+</resources>

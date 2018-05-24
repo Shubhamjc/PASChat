@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="signInBtnPhone">
+        <item name="android:drawableStart">@drawable/ic_phone_black_24dp</item>
+        <item name="android:drawableLeft">@drawable/ic_phone_black_24dp</item>
+        <item name="android:layout_width">@dimen/signinBtnWidth</item>
+        <item name="android:layout_height">@dimen/signinBtnHeight</item>
+        <item name="android:text">@string/signInUsingPhone</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="titleBarHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/toolbarTitleSize</item>
+        <item name="android:textColor">@color/toolbarTitle</item>
+    </style>
+
+    <style name="adminTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/groupAdminBg</item>
+	    <item name="android:layout_alignParentEnd">true</item>
+	    <item name="android:layout_centerVertical">true</item>
+	    <item name="android:background">@drawable/group_admin_background</item>
+    </style>
+
+</resources>

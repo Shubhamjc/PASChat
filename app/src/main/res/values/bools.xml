@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--BUTTON ATTRIBUTES-->
+    <bool name="messageSendButton_Enable">false</bool>
+
+
+    <bool name="groupList_stackFromBottom">false</bool>
+    <bool name="messageList_stackFromBottom">true</bool>
+
+    <bool name="messageList_usernameAllCaps">false</bool>
+
+    <bool name="chatWindowAdjustImageBounds">true</bool>
+
+</resources>

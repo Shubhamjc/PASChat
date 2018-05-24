@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubham.paschat.notificationlist"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sendNotificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendNotificationBtnLabel"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/notificationListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="false"
+        android:divider="@android:color/black"
+        android:dividerHeight="@dimen/dividerHeight"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_notification"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>

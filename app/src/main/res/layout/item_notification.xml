@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/listView_padding"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/notificationLinearView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listItemPadding"
+        app:cardCornerRadius="@dimen/cardViewCornerRadius">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/listItemContentPadding">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/notificationDateTimeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notificationDateText"
+                    android:textColor="@color/notificationTitle"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/notificationDateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/viewSeperator"
+                    android:layout_marginStart="@dimen/viewSeperator"
+                    android:textColor="@color/notificationValue"
+                    tools:text="@string/notificationDateTextViewLabel"/>
+
+                <TextView
+                    android:id="@+id/notificationTimeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/viewSeperator"
+                    android:layout_marginStart="@dimen/viewSeperator"
+                    android:textColor="@color/notificationValue"
+                    tools:text="@string/notificationTimeTextViewLabel"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/notificationSenderLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notificationSenderText"
+                    android:textColor="@color/notificationTitle"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/notificationSenderTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/viewSeperator"
+                    android:layout_marginStart="@dimen/viewSeperator"
+                    android:textColor="@color/notificationValue"
+                    tools:text="@string/notificationSenderTextViewLabel"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/notificationTitleLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notificationTitleText"
+                    android:textColor="@color/notificationTitle"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/notificationTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/viewSeperator"
+                    android:layout_marginStart="@dimen/viewSeperator"
+                    android:textColor="@color/notificationValue"
+                    tools:text="@string/notificationTitleTextViewLabel"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/notificationMessageLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notificationBodyTitle"
+                    android:textColor="@color/notificationTitle"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/notificationBodyTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/notificationValue"
+                    tools:text="@string/notificationMessageTextViewLabel"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

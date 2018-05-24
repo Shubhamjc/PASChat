@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shubham.paschat.MainActivity">
+
+    <item
+        android:id="@+id/actionUserList"
+        android:orderInCategory="@integer/userListOrder"
+        android:title="@string/action_userlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notify"
+        android:orderInCategory="1"
+        android:title="@string/action_notify"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionCreateGroup"
+        android:orderInCategory="@integer/createGroupOrder"
+        android:title="@string/action_creategroup"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/actionSignOut"
+        android:orderInCategory="@integer/signOutOrder"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"
+        android:title="@string/action_share"/>
+</menu>

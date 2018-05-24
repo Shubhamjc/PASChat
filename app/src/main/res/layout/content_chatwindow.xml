@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shubham.paschat.chatwindow"
+    tools:showIn="@layout/activity_chatwindow">
+
+    <Button
+        android:id="@+id/displayMembersBtn"
+        android:layout_width="@dimen/toolbarHeight"
+        android:layout_height="@dimen/toolbarHeight"
+        android:background="@drawable/ic_people_60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/outerMargins"
+        android:layout_marginRight="@dimen/outerMargins"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_marginTop="@dimen/toolbarHeight"
+        android:background="@color/chatWindowBackground">
+
+        <ListView
+            android:id="@+id/messageListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stackFromBottom="@bool/messageList_stackFromBottom"
+            android:divider="@color/chatWindowDivider"
+            android:dividerHeight="@dimen/dividerHeight"
+            android:transcriptMode="alwaysScroll"
+            tools:listitem="@layout/item_message_left"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sendMessageLinerLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:background="#eeeeee">
+
+            <ImageButton
+                android:id="@+id/photoPickerButton"
+                android:layout_width="@dimen/photoImagePickerSize"
+                android:layout_height="@dimen/photoImagePickerSize"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:background="#EEEEEE" />
+
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/message_hint"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="@dimen/sendButtonSize"
+                android:layout_height="@dimen/sendButtonSize"
+                android:layout_gravity="bottom"
+                android:layout_margin="3dp"
+
+                android:background="@drawable/ic_send_50dp"
+                android:enabled="@bool/messageSendButton_Enable"
+                android:textColor="@color/sendButton_label" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

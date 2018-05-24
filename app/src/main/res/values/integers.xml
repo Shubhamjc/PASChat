@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="createGroupOrder">1</integer>
+    <integer name="userListOrder">2</integer>
+    <integer name="signOutOrder">3</integer>
+
+</resources>
